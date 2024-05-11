@@ -16,4 +16,20 @@ public class Calcolatrice {
 	public double divisione(double a, double b) {
 		return a / b;
 	}
+	
+	public int somma(int a, int b) {
+		return a + b;
+	}
+	
+	public int sottrazizone(int a, int b) {
+		return a - b;
+	}
+	
+	public int moltiplicaizone(int a, int b) {
+		return a * b;
+	}
+	
+	public int divisione(int a, int b) {
+		return a / b;
+	}
 }
