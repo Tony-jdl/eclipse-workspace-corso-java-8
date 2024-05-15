@@ -67,4 +67,14 @@ public class CorsoJava {
 	public String concatena(String stringa1, String stringa2, double d, File file) {
 		return stringa1.concat(stringa2);
 	}
+	
+	public String concatena(String... vars) {
+		String out = "";
+		
+		for (int i = 0; i < vars.length; i++) {
+			out += vars[i];
+		}
+		
+		return out;
+	}
 }
