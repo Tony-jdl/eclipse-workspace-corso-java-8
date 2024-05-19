@@ -17,23 +17,17 @@ public class IfElseSwitchCase {
 	}
 	
 	public String recuperoTesto(int codice) {
-		String testo = null;
 		
 		switch (codice) {
 		case 1:
-			testo = "codice 1";
-			break;
+			return "codice 1";
 		case 2:
-			testo = "codice 2";
-			break;
+			return "codice 2";
 		case 3:
-			testo = "codice 3";
-			break;
+			return "codice 3";
 		default:
-			break;
+			return "prova";
 		}
-		
-		return testo;
 	}
 
 }
