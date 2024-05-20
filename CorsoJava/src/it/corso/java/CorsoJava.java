@@ -4,6 +4,7 @@ import java.io.File;
 
 import it.corso.java.ciclo.ForWhileDoWhile;
 import it.corso.java.condizionali.IfElseSwitchCase;
+import it.corso.java.interruttore.BreackContinue;
 
 public class CorsoJava {
 	int b = 5; // variabile di istanza
@@ -11,12 +12,15 @@ public class CorsoJava {
 
 	public static void main(String[] args) {
 		
-		ForWhileDoWhile ciclo = new ForWhileDoWhile();
-		ciclo.itera(0, 20);
-		ciclo.iteraDoWhile(0, 20);
+		BreackContinue bc = new BreackContinue();
+		bc.esempioBreak(10, 20);
 		
-		String[] arr = new String[] {"testo1", "testo2", "testo3", "testo4", "testo5"};
-		ciclo.iteraFor(arr);
+//		ForWhileDoWhile ciclo = new ForWhileDoWhile();
+//		ciclo.itera(0, 20);
+//		ciclo.iteraDoWhile(0, 20);
+//		
+//		String[] arr = new String[] {"testo1", "testo2", "testo3", "testo4", "testo5"};
+//		ciclo.iteraFor(arr);
 		
 //		IfElseSwitchCase test = new IfElseSwitchCase();
 //		System.out.println(test.recuperaIlMaggiore(5, 10, 15));
