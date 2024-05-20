@@ -2,6 +2,7 @@ package it.corso.java;
 
 import java.io.File;
 
+import it.corso.java.ciclo.ForWhileDoWhile;
 import it.corso.java.condizionali.IfElseSwitchCase;
 
 public class CorsoJava {
@@ -10,10 +11,17 @@ public class CorsoJava {
 
 	public static void main(String[] args) {
 		
-		IfElseSwitchCase test = new IfElseSwitchCase();
-		System.out.println(test.recuperaIlMaggiore(5, 10, 15));
+		ForWhileDoWhile ciclo = new ForWhileDoWhile();
+		ciclo.itera(0, 20);
+		ciclo.iteraDoWhile(0, 20);
 		
-		System.out.println(test.recuperoTesto(2));
+		String[] arr = new String[] {"testo1", "testo2", "testo3", "testo4", "testo5"};
+		ciclo.iteraFor(arr);
+		
+//		IfElseSwitchCase test = new IfElseSwitchCase();
+//		System.out.println(test.recuperaIlMaggiore(5, 10, 15));
+//		
+//		System.out.println(test.recuperoTesto(2));
 		
 //		// variabile di istanza
 //		CorsoJava c1 = new CorsoJava();
